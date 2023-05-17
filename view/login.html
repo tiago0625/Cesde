@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="../styles/login.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300&family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <section class="contenedor nav">
+                <div class="logo">
+                    <a href="../index.html">
+                        <img src="../img/logoEstigma.png" alt="logo">
+                    </a>
+                </div>
+                <div class="enlaces-header">
+                    <a href="../index.html">Home</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Services</a>
+                    <a href="#">FQA</a>
+                    <a href="login.html">Login</a>
+                </div>
+                <div class="hamburguer">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </section>
+        </nav>
+    </header>
+
+    <div class="the-login">
+        <!-- Formularios -->
+        <div class="contenedor-formularios">
+            <!-- Links de los formularios -->
+            <ul class="contenedor-tabs">
+                <li class="tab tab-segunda active">
+                    <a href="#iniciar-sesion">Iniciar Sesión</a>
+                </li>
+
+                <li class="tab tab-primera">
+                    <a href="#registrarse">Registrarse</a>                    
+                </li>
+            </ul>
+
+
+            <!-- Contenido de los Formularios -->
+            <div class="contenido-tab">
+            <!-- Iniciar Sesión -->
+
+                <div class="bloque active" id="iniciar-sesion">
+                    <h1>Iniciar Sesión</h1>
+                    <form action="#" method="post">
+                        <div class="contenedor-input">
+                            <label class="label"><span class="req"></span></label>
+                            <input 
+                                type="email"
+                                required
+                                placeholder="Email"
+                            >
+                        </div>
+
+                        <div class="contenedor-input">
+                            <label class="label"><span class="req"></span></label>
+                            <input 
+                                type="password"
+                                required
+                                placeholder="Password"
+                            >
+                        </div>
+
+                        <p class="forgot"><a href="#">¿Se te olvidó la contraseña?</a></p>
+
+                        <input 
+                            type="submit"
+                            class="button button-block"
+                            value="Iniciar Sesión"
+                        >
+                    </form>
+                </div>
+
+                <!-- Registrarse -->
+                <div class="bloque" id="registrarse">
+                    <h1>Registrarse</h1>
+                    <form action="#" method="post">
+                        <div class="fila-arriba">
+                            <div class="contenedor-input">
+                                <label><span class="req"></span></label>
+                                <input 
+                                    type="text"
+                                    required
+                                    placeholder="Nombre"
+                                >
+                            </div>
+                            
+                            <div class="contenedor-input">
+                                <label><span class="req"></span></label>
+                                <input 
+                                    type="text"
+                                    required
+                                    placeholder="Apellidos"
+                                >
+                            </div>
+                        </div>
+
+                        <div class="contenedor-input">
+                            <label class="label"><span class="req"></span></label>
+                            <input 
+                                type="email"
+                                required
+                                placeholder="Email"
+                            >
+                        </div>
+
+                        <div class="contenedor-input">
+                            <label class="label"><span class="req"></span></label>
+                            <input 
+                                type="password"
+                                required
+                                placeholder="Password"
+                            >
+                        </div>
+
+                        <div class="contenedor-input">
+                            <label class="label"><span class="req"></span></label>
+                            <input 
+                                type="password"
+                                required
+                                placeholder="Verificar Password"
+                            >
+                        </div>
+
+                        <input 
+                            type="submit"
+                            class="button button-block"
+                            value="Registrarse"
+                        >                    
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    
+    
+    <script src="https://kit.fontawesome.com/bb1ea53f2e.js" crossorigin="anonymous"></script>
+    
+    <script src="../JS/login.js"></script>
+
+
+</body>
+</html>
